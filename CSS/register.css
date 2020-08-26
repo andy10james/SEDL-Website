@@ -1,0 +1,48 @@
+﻿body {
+	background: black url('http://sedl.eu/graphics/back.jpg') top center repeat-x;
+	text-align: center;
+	margin: 0;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: small;
+}
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+	height: 100%;
+	padding: 0;
+	text-align: justify;	
+}
+
+#head {
+	height: 24px;
+	width: 784px;
+	background-image:url('http://sedl.eu/graphics/oracle/head.jpg');
+	margin-top: 50px;
+	text-align: right;
+	font-size: x-large;
+	padding: 8px;
+}
+
+#form {
+	padding: 5px;
+	margin-top: 25px;
+	border: thin #333333 solid;
+	background-color: black;
+}
+
+#form .formSubHead {
+	font-size: x-large;
+	font-weight: lighter;
+	margin-top: 20px;
+	color: #900
+}
+
+#form .highlight {
+	color: #900;
+}
+
+#form .gapRow {
+	height: 20px;
+}

@@ -1,0 +1,19 @@
+/*  phpBB 3.0 Style Sheet
+    --------------------------------------------------------------
+	Style name:		IDLaunch_Blue
+	Based on style:	proSilver (this is the default phpBB 3 style)
+	Original author:	subBlue ( http://www.subBlue.com/ )
+	Modified by:		David Jansen ( http://www.IDLaunch.nl/ )
+	
+	Copyright 2006 phpBB Group ( http://www.phpbb.com/ )
+    --------------------------------------------------------------
+*/
+@import url("blue.css");
+@import url("common.css");
+@import url("links.css");
+@import url("content.css");
+@import url("buttons.css");
+@import url("cp.css");
+@import url("forms.css");
+@import url("tweaks.css");
+@import url("colours.css");

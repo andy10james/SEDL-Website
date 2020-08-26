@@ -1,0 +1,196 @@
+/* IDLaunch Blue Style by FreakyBlue @ IDLaunch.org */
+
+#body-bg {
+	background: #000000 url('{T_THEME_PATH}/images/body-bg.png');
+	padding: 0;
+	margin: 0;
+}
+
+/* Here we define the necessary controls for the header */
+
+#header_blue {
+	height: 114px;
+	background: url('{T_THEME_PATH}/images/header-bg.png') 0 0 repeat-x;
+}
+
+#wrap {
+	position: relative;
+	overflow: hidden;
+	height: 114px;
+}
+
+.wrapper_header {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#logo, #logo a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 1000px;
+	height: 114px;
+	background: url('{T_THEME_PATH}/images/logo.png') no-repeat;
+}
+
+/* This part controls the menu */
+
+#menu_bar {
+	background: url('{T_THEME_PATH}/images/menu-bg.png') 0 0 repeat-x;
+	height: 61px;
+}
+
+.wrapper_menu {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu_nav {
+	float: left;
+	height: 61px;
+	padding-left: 0px;
+	margin: 0px;
+	z-index: 100;
+}
+
+#menu_nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menu_nav li {
+	float: left;
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	padding-right: 1px;
+	line-height: 31px;
+	list-style-type: none;
+}
+
+#menu_nav li a {
+	display: block;
+	float: left;
+	color: #ccc;
+	text-decoration: none;
+	padding: 16px 23px 13px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+#menu_nav li a:hover, #menu_nav li:hover a, #menu_nav li.sfhover a {
+	color: #ddd;
+}
+
+#menu_nav li.chosen a {
+	background: url('{T_THEME_PATH}/images/menu_nav-chosen.png') 50% 0 no-repeat;
+	color: #fff;
+}
+
+#searchbar {
+	position: absolute;
+	top: 130px;
+	right: 100px;
+	height: 36px;
+	width: 210px;
+	background: url('{T_THEME_PATH}/images/searchbox.png') no-repeat;
+	overflow: hidden;
+}
+
+#searchbar .inputbox {
+	background: transparent;
+	color: #ddd;
+	padding: 3px 3px;
+	border: none;
+	margin: 4px 0 0 35px;
+	width: 150px;
+	height: 14px;
+	font-size: 12px;
+	font-family: tahoma, sans-serif;
+}
+
+/* Let's work on the forum */
+
+.wrapper_forum {
+	width: 970px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#shadow_left {
+	background: url('{T_THEME_PATH}/images/shadow_left.png') 0 0 no-repeat;
+	padding-left: 8px;
+	height: 7px;
+}
+
+#shadow_right {
+	background: url('{T_THEME_PATH}/images/shadow_right.png') 100% 0 no-repeat;
+	height: 7px;
+}
+
+#shadow_top {
+	background: url('{T_THEME_PATH}/images/shadow_top.png') 0 0 no-repeat;
+	height: 7px;
+	width: 955px;
+}
+
+#body_shadow_left {
+	background: url('{T_THEME_PATH}/images/body_shadow_left.png') 0 0 repeat-y;
+	padding-left: 25px;
+}
+
+#body_shadow_right {
+	background: #fff url('{T_THEME_PATH}/images/body_shadow_right.png') 100% 0 repeat-y;
+	padding-right: 25px;
+}
+
+#mainbody {
+	width: 900px;
+	background: #fff;
+	padding: 8px;
+	margin: 0;
+}
+
+/* Close the forum with a footer */
+
+#footer {
+	background: #ffffff;
+	color: #aaa;
+	height: 3px;
+}
+
+#footer_left {
+	padding-left: 8px;
+	background: url('{T_THEME_PATH}/images/footer_left.png') 0 0 no-repeat;
+	height: 6px;
+}
+
+#footer_right {
+	padding-right: 3px;
+	background: url('{T_THEME_PATH}/images/footer_right.png') 100% 0 no-repeat;
+	height: 6px;
+}
+
+#footer_center {
+	background: url('{T_THEME_PATH}/images/footer_center.png') 0 0 no-repeat;
+	height: 6px;
+	width: 955px;
+}
+
+#footer_black {
+	height: 51px;
+	padding-top: 10px;
+	padding-left: 3px;
+}
+
+#footer_black a {
+color:#FFFFFF;
+}
+
+.clr {
+	clear: both;
+}

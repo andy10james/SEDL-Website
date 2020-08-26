@@ -1,0 +1,17 @@
+Subject: {SITENAME} - E-mail a friend
+
+Hello {TO_USERNAME},
+
+{FROM_USERNAME} on {SITENAME} thought you may be interested in the following topic:
+
+{TOPIC_NAME}
+
+You can find it at:
+
+{U_TOPIC}
+
+A message from {FROM_USERNAME} may also be included below. Please note that this message has not been seen or approved by SEDL web support. If you wish to complain about having received this e-mail please contact {BOARD_CONTACT}. Please quote the message headers when contacting web support.
+
+----------
+
+{MESSAGE}

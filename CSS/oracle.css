@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS For SEDL Oracle */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	background-color: black;
+}
+
+#backImg {
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: green;
+}
+
+.img {
+	margin-left: 0px;
+}
+
+#container {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: large;
+	font-family: Calibri, Arial
+}
+
+a {
+	display: block;
+}
+
+#bar {
+	background-image: url('http://www.sedl.eu/graphics/semiBlack.png');
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+#bar #innerBar {
+	background-image: url('http://www.sedl.eu/graphics/semiBlack.png');
+	margin-top: 1%;
+}
+
+#menu {
+	margin-left: 10%;
+	background-image: url('http://www.sedl.eu/graphics/semiBlack.png');
+	min-width: 250px;
+	width: 15%;
+}
+
+#menu a {
+	padding: 5px;
+	cursor: pointer;
+}
+
+#menu a:hover {
+	background-color: #990000
+}

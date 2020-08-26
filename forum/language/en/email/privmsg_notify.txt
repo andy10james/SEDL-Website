@@ -1,0 +1,10 @@
+Subject: {SITENAME} - New private message
+
+Hello {USERNAME},
+
+You have received a new private message from {AUTHOR_NAME}: "{SUBJECT}"
+
+You can view your new message by clicking on the following link:
+{U_INBOX}
+
+{EMAIL_SIG}

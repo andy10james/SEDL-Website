@@ -1,0 +1,121 @@
+﻿body {
+	
+	background-color: black;
+	color: white;
+	margin: 0;
+	font-family: Arial;
+	font-size: small;
+	
+}
+
+a img {
+	
+	border: none;
+	
+}
+
+.container {
+
+	width: 800px;
+	text-align: left;
+	margin: 0 auto;
+	clear: both
+
+}
+
+.clear {
+
+	clear: both;
+	font-size: 0;
+
+}
+
+#head {
+
+	text-align: center;
+	/*background-image: url('http://sedl.eu/graphics/head.jpg');*/
+	/*background-image: url('http://sedl.eu/graphics/head_split.jpg');*/
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	height: 100px;
+
+}
+
+#head .container {
+
+	width: 1000px;
+	background-image: url('http://sedl.eu/graphics/head.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 100px;
+
+}
+
+#head a {
+
+	color: white;
+	text-decoration: none;
+	
+}
+
+#head #logo {
+
+	padding: 20px;
+	float: left;
+	width: 250px;
+
+}
+
+#head #links {
+
+	padding: 25px;
+	float: right;
+
+}
+
+#head #links a {
+
+	display: block;
+	float: left;
+	width: 75px;
+	height: 25px;
+	margin: 20px
+
+}
+
+#head #links .solar { background-image: url("http://www.sedl.eu/graphics/mItems/solar.png") }
+#head #links .solar:hover { background-image: url("http://www.sedl.eu/graphics/mItems/solar_over.png") }
+#head #links .eclipse { background-image: url("http://www.sedl.eu/graphics/mItems/eclipse.png") }
+#head #links .eclipse:hover { background-image: url("http://www.sedl.eu/graphics/mItems/eclipse_over.png") }
+#head #links .destiny { background-image: url("http://www.sedl.eu/graphics/mItems/destiny.png") }
+#head #links .destiny:hover { background-image: url("http://www.sedl.eu/graphics/mItems/destiny_over.png") }
+#head #links .legacy { background-image: url("http://www.sedl.eu/graphics/mItems/legacy.png") }
+#head #links .legacy:hover { background-image: url("http://www.sedl.eu/graphics/mItems/legacy_over.png") }
+
+
+#content {
+
+	background-color: white;
+	color: black;
+	padding: 10px;
+	/*border: thin #0066CC solid;*/
+	
+}
+
+#content a{
+	color: #0066CC
+}
+
+#notification {
+
+	margin-top: 10px;
+	background-color: #333333;
+	color: white;
+	padding: 10px;
+	/*border: thin #0066CC solid;*/
+	
+}
+
+#notifcation a{
+	color: #0066CC
+}
